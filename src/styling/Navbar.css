@@ -1,0 +1,103 @@
+  
+.navbar-brand {
+    font-size: 20px;
+}
+
+
+
+ .nav-link:hover {
+    color:rgba(255, 255, 255, 0.986) !important;
+   
+   
+}
+
+#btnprops:hover {
+    border-color: white;
+}
+
+
+.nav-link {
+    margin-bottom: 12px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+@media (max-width: 2000px) { 
+    .nav-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;        /*thickness of line*/
+        background: #15eb0a;
+        transition: all 250ms ease-in-out;
+        
+    }
+
+    .active{
+        border-bottom: 3px solid #019fb6;
+        height:29px;
+          
+      }
+    
+
+  }
+
+  @media (max-width: 575.98px), (max-width: 767.20px),(max-width: 991.98px) { 
+    .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;        /*thickness of line*/
+    background: #09e31b;
+    transition: all 250ms ease-in-out;
+    
+}
+.active{
+    border-bottom: 4px solid #019fb6;
+    height:30px;
+      
+  }
+  }
+
+.nav-link:hover::after {
+   width: 100%;
+  
+}
+/*the individual lines*/
+#navbaricontop {
+    color: white;
+    margin: -4px 4px auto;
+}
+/*the individual lines*/
+#navbariconmid {
+    color: white;
+    margin: -18px 4px;
+   
+}
+/*the individual lines*/
+#navbariconbot {
+    color: white;
+    margin: auto 4px -4px
+}
+
+
+#navBackgroundColor {
+    background: rgb(31,32,40);
+   
+ 
+}
+
+
+
+.font-mono {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+}
+.pos {
+    position: absolute;
+}
+
+.navbar-nav { /* controls blue line height*/
+    height: auto;
+}

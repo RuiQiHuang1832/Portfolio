@@ -1,0 +1,46 @@
+.title {
+    position: relative;
+    z-index: 1;
+    margin-left: 11%;
+    margin-top: 5%
+
+} 
+
+
+
+@font-face {
+    font-family: Didact Gothic;
+    src: url("/src/fonts/DidactGothic-Regular.ttf");
+  }
+
+.title-name {
+    font-size: 7rem;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.6rem;
+    font-family: Didact Gothic; 
+
+
+
+  
+}
+.title-title {
+        font-size: 25px;
+        line-height: 2.5;
+        letter-spacing: 0.1em;
+}
+
+
+
+.title-name-md {
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.6rem;
+    font-family: Didact Gothic; 
+  
+}
+.title-text {
+    font-size: 17px;
+    
+}
