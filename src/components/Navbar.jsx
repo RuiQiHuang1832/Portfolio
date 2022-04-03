@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styling/Navbar.css"
-import pdf from '../cv/RuiQiHuang_CV_2022.pdf'
+
 
 export default function Navbar() {
 
@@ -36,7 +36,7 @@ export default function Navbar() {
                 <a href="#aboutpage" className="nav-link text-muted ms-xl-5 ms-lg-5  fw-bold p-md-0 p-sm-0 p-0  ">about me</a>
                 <a href="#projectspage" className="nav-link text-muted ms-xl-5 ms-lg-5  fw-bold p-md-0 p-sm-0 p-0  "> projects</a>
                 <a href="#educationpage" className="nav-link text-muted ms-xl-5 ms-lg-5  fw-bold p-md-0 p-sm-0 p-0 ">education</a>
-                <a className='nav-link text-muted ms-xl-5 ms-lg-5  fw-bold p-md-0 p-sm-0 p-0 me-5' href={pdf} >cv </a>
+                
                 {/** for mobile   */}
               
               </div>
