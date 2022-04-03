@@ -44,3 +44,21 @@
     font-size: 17px;
     
 }
+
+.title-name-sm {
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    font-family: Didact Gothic; 
+  
+}
+
+
+
+@media (min-width: 992px) { 
+    #imageofguy {
+        margin-top: -30rem;
+        margin-right: 19vw;
+    }
+}
+
