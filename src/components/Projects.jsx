@@ -21,7 +21,7 @@ export default function Projects() {
         <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card border-0">
-      <div class="card-body">
+      <div  id="bgDark" class="card-body">
         <h5 class="card-title text-info"><span className='text-decoration-underline'>Tailwind </span> <span className='d-flex justify-content-end'>(01/2022 - PRESENT)</span></h5>
         <p class="card-text"><ul>
         <li>
@@ -51,7 +51,7 @@ export default function Projects() {
   </div>
   <div class="col">
     <div class="card border-0">
-      <div class="card-body">
+      <div  id="bgDark" class="card-body">
         <h5 class="card-title text-info "><span className='text-decoration-underline'>Discord Bot</span> <span className='d-flex justify-content-end'>(12/2021 - 08/2021)</span></h5>
         <p class="card-text"><ul>
         <li>
@@ -71,7 +71,7 @@ export default function Projects() {
   </div>
   <div class="col">
     <div class="card border-0">
-      <div class="card-body">
+      <div  id="bgDark" class="card-body">
         <h5 class="card-title text-info"> <span className='text-decoration-underline'>Tutoring Web App</span> <span className='d-flex justify-content-end'>(12/2021 - 08/2021)</span></h5>
         <p class="card-text"><ul>
         <li>
@@ -90,7 +90,7 @@ export default function Projects() {
   <div class="col">
     <div class="card border-0">
   
-      <div class="card-body">
+      <div  id="bgDark" class="card-body">
         <h5 class="card-title text-info "><span className='text-decoration-underline'>Forager</span> <span className='d-flex justify-content-end'>(07/2021 - 08/2020)</span></h5>
         <p class="card-text"><ul>
         <li>
@@ -116,7 +116,7 @@ export default function Projects() {
   </div>
   <div class="col">
     <div class="card border-0">
-      <div class="card-body">
+      <div  id="bgDark" class="card-body">
         <h5 class="card-title text-info"><span className='text-decoration-underline'>Rosie</span> <span className='d-flex justify-content-end'>(04/2021 - 12/2020)</span></h5>
         <p class="card-text"> <ul>
         <li>
