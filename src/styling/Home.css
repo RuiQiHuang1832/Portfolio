@@ -29,7 +29,11 @@
         line-height: 2.5;
         letter-spacing: 0.1em;
 }
-
+.fontDidact {
+    letter-spacing: 0.08em;
+    font-family: Didact Gothic; 
+  
+}
 
 
 .title-name-md {

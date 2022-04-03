@@ -17,12 +17,12 @@ export default function Projects() {
           </div>
         </div>
         <div className='d-flex justify-content-center title-name-sm  my-5'>
-        <div className='col-9'>
+        <div className='col-10 container ps-lg-4'>
         <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card border-0">
       <div  id="bgDark" class="card-body">
-        <h5 class="card-title text-info"><span className='text-decoration-underline'>Tailwind </span> <span className='d-flex justify-content-end'>(01/2022 - PRESENT)</span></h5>
+        <h5 class="card-title text-info"><span className='text-decoration-underline'>Tailwind </span> <span className='d-flex justify-content-end'>01/2022 - PRESENT</span></h5>
         <p class="card-text"><ul>
         <li>
         Designing a forum based website that allows
@@ -52,7 +52,7 @@ export default function Projects() {
   <div class="col">
     <div class="card border-0">
       <div  id="bgDark" class="card-body">
-        <h5 class="card-title text-info "><span className='text-decoration-underline'>Discord Bot</span> <span className='d-flex justify-content-end'>(12/2021 - 08/2021)</span></h5>
+        <h5 class="card-title text-info "><span className='text-decoration-underline'>Discord Bot</span> <span className='d-flex justify-content-end'>12/2021 - 08/2021</span></h5>
         <p class="card-text"><ul>
         <li>
           Created a discord bot in Python tha tests against a database model
@@ -72,7 +72,7 @@ export default function Projects() {
   <div class="col">
     <div class="card border-0">
       <div  id="bgDark" class="card-body">
-        <h5 class="card-title text-info"> <span className='text-decoration-underline'>Tutoring Web App</span> <span className='d-flex justify-content-end'>(12/2021 - 08/2021)</span></h5>
+        <h5 class="card-title text-info"> <span className='text-decoration-underline'>Tutoring Web App</span> <span className='d-flex justify-content-end'>12/2021 - 08/2021</span></h5>
         <p class="card-text"><ul>
         <li>
           Designed a web app for my senior team project
@@ -91,7 +91,7 @@ export default function Projects() {
     <div class="card border-0">
   
       <div  id="bgDark" class="card-body">
-        <h5 class="card-title text-info "><span className='text-decoration-underline'>Forager</span> <span className='d-flex justify-content-end'>(07/2021 - 08/2020)</span></h5>
+        <h5 class="card-title text-info "><span className='text-decoration-underline'>Forager</span> <span className='d-flex justify-content-end'>07/2021 - 08/2020</span></h5>
         <p class="card-text"><ul>
         <li>
         Designed a cross-platform Java game in a 
@@ -117,7 +117,7 @@ export default function Projects() {
   <div class="col">
     <div class="card border-0">
       <div  id="bgDark" class="card-body">
-        <h5 class="card-title text-info"><span className='text-decoration-underline'>Rosie</span> <span className='d-flex justify-content-end'>(04/2021 - 12/2020)</span></h5>
+        <h5 class="card-title text-info"><span className='text-decoration-underline'>Rosie</span> <span className='d-flex justify-content-end'>04/2021 - 12/2020</span></h5>
         <p class="card-text"> <ul>
         <li>
           Designed a game using Jframe that allows users to pick choices and display certain results at the end.
