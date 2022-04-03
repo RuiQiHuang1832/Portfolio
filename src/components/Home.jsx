@@ -69,13 +69,13 @@ export default function Home() {
               enable: true,
               outMode: "bounce",
               random: false,
-              speed: 6,
+              speed: 2,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 2000,
               },
               value: 80,
             },
