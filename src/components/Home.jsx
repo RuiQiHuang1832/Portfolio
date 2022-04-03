@@ -6,6 +6,7 @@ import '../styling/vivify.min.css'
 
 
 export default function Home() {
+  document.title = "Portfolio - Rui Qi Huang"
   return (
       <div className='text-white'>
           <div className='title'>
