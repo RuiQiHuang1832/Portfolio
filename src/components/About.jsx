@@ -17,7 +17,7 @@ export default function About() {
             <div className='title-text mb-5 col-7 mt-4'>
                 Hi there! My name is Rui and I am a Computer Science student at San Francisco State University 
                 graduating Spring 2022. I am currently looking for entry level positions as a frontend/backend developer 
-                or software engineer to expand my knowledge of code and to enhance user experience through technology!
+                 to expand my knowledge of code and to enhance user experience through technology!
              
         </div>
         </div>

@@ -25,31 +25,7 @@ export default function Home() {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-          fpsLimit: 60,
-          interactivity: {
-            events: {
-              onHover: {
-                enable: true,
-                mode: "repulse",
-              },
-              resize: true,
-            },
-            modes: {
-              bubble: {
-                distance: 400,
-                duration: 2,
-                opacity: 0.8,
-                size: 40,
-              },
-              push: {
-                quantity: 4,
-              },
-              repulse: {
-                distance: 200,
-                duration: 0.4,
-              },
-            },
-          },
+          fpsLimit: 120,
           particles: {
             color: {
               value: "#ffffff",
@@ -59,7 +35,7 @@ export default function Home() {
               distance: 150,
               enable: true,
               opacity: 0.5,
-              width: 1,
+              width: 2,
             },
             collisions: {
               enable: true,
@@ -69,7 +45,7 @@ export default function Home() {
               enable: true,
               outMode: "bounce",
               random: false,
-              speed: 2,
+              speed: 1,
               straight: false,
             },
             number: {
@@ -83,7 +59,7 @@ export default function Home() {
               value: 0.5,
             },
             shape: {
-              type: "circle",
+              type: "star",
             },
             size: {
               random: true,

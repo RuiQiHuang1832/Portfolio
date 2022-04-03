@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styling/Projects.css'
 
 export default function Projects() {
   return (
@@ -15,23 +16,14 @@ export default function Projects() {
           <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"></path> </svg>
           </div>
         </div>
-
-        <div className='d-flex justify-content-center my-5'>
-            <div className='col-9'>
-          <table class="table text-white title-name-sm">
-                <thead>
-                <tr>
-      <th scope="col">date</th>
-      <th scope="col">project</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td scope="row">01/2022 - PRESENT</td>
-      <td  scope="row"><h3 className='text-info'>Tailwind </h3>
-      <td>forum based web app built in reactjs and spring</td>
-      <br/>
-      <ul>
+        <div className='d-flex justify-content-center title-name-sm  my-5'>
+        <div className='col-9'>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card border-0">
+      <div class="card-body">
+        <h5 class="card-title text-info"><span className='text-decoration-underline'>Tailwind </span> <span className='d-flex justify-content-end'>(01/2022 - PRESENT)</span></h5>
+        <p class="card-text"><ul>
         <li>
         Designing a forum based website that allows
         users to sign up, log in, create posts, and edit various settings
@@ -53,18 +45,15 @@ export default function Projects() {
           Utilized HDD local storage to increase performance and cache results to prevent bottlenecking and preserve resources.
         </li>
 
-        </ul>
-      </td>
-     
-   
-    </tr>
-    
-    <tr>
-      <td scope="row">12/2021 - 08/2021</td>
-      <td  scope="row"><h3 className='text-info'>Discord Bot </h3>
-      <td>Discord bot that interacts with a remote Database</td>
-      <br/>
-      <ul>
+        </ul></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+      <div class="card-body">
+        <h5 class="card-title text-info "><span className='text-decoration-underline'>Discord Bot</span> <span className='d-flex justify-content-end'>(12/2021 - 08/2021)</span></h5>
+        <p class="card-text"><ul>
         <li>
           Created a discord bot in Python tha tests against a database model
         </li>
@@ -76,32 +65,34 @@ export default function Projects() {
         <li>
           Implemented using: MySql, Python, DiscordAPI
         </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td scope="row">12/2021 - 08/2021</td>
-      <td  scope="row"><h3 className='text-info'>Tutoring Web App </h3>
-      <td>A web app that allows users to match with tutors</td>
-      <br/>
-      <ul>
+        </ul></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+      <div class="card-body">
+        <h5 class="card-title text-info"> <span className='text-decoration-underline'>Tutoring Web App</span> <span className='d-flex justify-content-end'>(12/2021 - 08/2021)</span></h5>
+        <p class="card-text"><ul>
         <li>
           Designed a web app for my senior team project
         </li>
         <br/>
         <li>
-          Implemented using: AWS EC2, MySQL, Nodejs, JAvascript, ExpressJS, ReactJS, Google analytics
+          Implemented using: AWS EC2, MySQL, Nodejs, Javascript, ExpressJS, ReactJS, Google analytics
         </li>
         <br/>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td scope="row">07/2021 - 08/2020</td>
-      <td  scope="row"><h3 className='text-info'>Forager </h3>
-      <td>2D top down game for desktop</td>
-      <br/>
-      <ul>
+        </ul></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <div class="card border-0">
+  
+      <div class="card-body">
+        <h5 class="card-title text-info "><span className='text-decoration-underline'>Forager</span> <span className='d-flex justify-content-end'>(07/2021 - 08/2020)</span></h5>
+        <p class="card-text"><ul>
         <li>
         Designed a cross-platform Java game in a 
       development framework known as Libgdx
@@ -119,16 +110,15 @@ export default function Projects() {
         <li>
           Integrated collision detection using box2D
         </li>
-        </ul>
-      </td>
-    
-    </tr>
-    <tr>
-      <td scope="row">04/2021 - 12/2020</td>
-      <td  scope="row"><h3 className='text-info'>Rosie </h3>
-      <td>Basic narration game in Jframe</td>
-      <br/>
-      <ul>
+        </ul></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+      <div class="card-body">
+        <h5 class="card-title text-info"><span className='text-decoration-underline'>Rosie</span> <span className='d-flex justify-content-end'>(04/2021 - 12/2020)</span></h5>
+        <p class="card-text"> <ul>
         <li>
           Designed a game using Jframe that allows users to pick choices and display certain results at the end.
         </li>
@@ -137,13 +127,20 @@ export default function Projects() {
           Implemented type writer effect, music and text narration. Done in Java and Jframe
         </li>
         <br/>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+        </ul></p>
+      </div>
+      
+    </div>
+    
+  </div>
+  
 </div>
 </div>
+</div>
+       
+    
+  
+    
     </div>
   )
 }
