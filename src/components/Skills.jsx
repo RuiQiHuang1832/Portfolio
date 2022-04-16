@@ -30,7 +30,7 @@ export default class Skills extends Component {
         </li>
         <br/>
         <li>
-        <span className='text-success'>Coursework: </span> <br></br>Programming Paradigms and Languages, Artifical Intelligence, Computer Networks Intro to Database Systems, Software Engineering, Software Development
+        <span className='text-success'>Coursework: </span> <br></br>Programming Paradigms and Languages, Artificial Intelligence, Computer Networks, Intro to Database Systems, Software Engineering, Software Development
         </li>
         <br/>
         <li>

@@ -25,12 +25,12 @@ export default function Projects() {
         <h5 class="card-title text-info"><span className='text-decoration-underline'>Tailwind </span> <span className='d-flex justify-content-end'>01/2022 - PRESENT</span></h5>
         <p class="card-text"><ul>
         <li>
-        Designing a forum based website that allows
+        Designing a Message Board web app that allows
         users to sign up, log in, create posts, and edit various settings
         </li>
         <br/>
         <li>
-          Implementing the frontend using: Reactjs, Axios, Fetch API, Bootstrap5, in Javascript CSS and HTML5.
+          Implementing the frontend using: Reactjs, Bootstrap5, in Javascript CSS and HTML5.
         </li>
         <br/>
         <li>
@@ -38,11 +38,11 @@ export default function Projects() {
         </li>
         <br/>
         <li>
-          Provided async HTTP methods that utilize endpoints in order to perform CRUD activities
+          Provided async HTTP methods that utilize endpoints in order to perform CRUD operations
         </li>
         <br/>
         <li>
-          Utilized HDD local storage to increase performance and cache results to prevent bottlenecking and preserve resources.
+          Utilized HDD local storage to increase performance, cache results to prevent bottlenecking and preserve resources.
         </li>
 
         </ul></p>
