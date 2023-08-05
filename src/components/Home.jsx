@@ -17,83 +17,83 @@ export default function Home() {
     console.log(container);
   };
   return (
-      <div className='text-white'>
-        
-          <div className='title'>
-          <Particles
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={{
-          fpsLimit: 120,
-          particles: {
-            color: {
-              value: "#ffffff",
-            },
-            links: {
-              color: "#ffffff",
-              distance: 150,
-              enable: true,
-              opacity: 0.5,
-              width: 2,
-            },
-            collisions: {
-              enable: true,
-            },
-            move: {
-              direction: "none",
-              enable: true,
-              outMode: "bounce",
-              random: false,
-              speed: 1,
-              straight: false,
-            },
-            number: {
-              density: {
-                enable: true,
-                area: 2000,
+    <div className='text-white'>
+
+      <div className='title'>
+        <Particles
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          options={{
+            fpsLimit: 120,
+            particles: {
+              color: {
+                value: "#ffffff",
               },
-              value: 80,
+              links: {
+                color: "#ffffff",
+                distance: 150,
+                enable: true,
+                opacity: 0.5,
+                width: 2,
+              },
+              collisions: {
+                enable: true,
+              },
+              move: {
+                direction: "none",
+                enable: true,
+                outMode: "bounce",
+                random: false,
+                speed: 1,
+                straight: false,
+              },
+              number: {
+                density: {
+                  enable: true,
+                  area: 2000,
+                },
+                value: 80,
+              },
+              opacity: {
+                value: 0.5,
+              },
+              shape: {
+                type: "star",
+              },
+              size: {
+                random: true,
+                value: 5,
+              },
             },
-            opacity: {
-              value: 0.5,
-            },
-            shape: {
-              type: "star",
-            },
-            size: {
-              random: true,
-              value: 5,
-            },
-          },
-          detectRetina: true,
-        }}
-      />
-          <h1 className='title-name vivify fadeInLeft duration-1000 '>RUI<br/> HUANG</h1>
-          <div className='text-warning'> 
-          <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100" height="4" 
-          fill="currentColor" class="bi bi-dash-lg" viewBox="2 7.5 12 1">   
-          <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"></path> </svg>
-          <br/>
-          <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100" height="4" style={{marginLeft:"4rem"}}
-          fill="currentColor" class="bi bi-dash-lg" viewBox="2 7.5 12 1">   
-          <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"></path> </svg>
-          </div>
-          <h4 className='title-title vivify popInBottom duration-2000'>web developer</h4>
-          <h6 className='fontDidact'>conjuring websites from nothing 👻</h6>
-
-          </div>
-            
-  
-
-        <div className='d-flex justify-content-lg-end title'>
-            <div className='vivify popInTop duration-1000'>
-            <img src={dude} id="imageofguy" alt="illustration of guy walking"  height="550"></img>
-
-            </div>
-            
+            detectRetina: true,
+          }}
+        />
+        <h1 className='title-name vivify fadeInLeft duration-1000 '>RUI<br /> HUANG</h1>
+        <div className='doubleLineColors'>
+          <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100" height="4"
+            fill="currentColor" class="bi bi-dash-lg" viewBox="2 7.5 12 1">
+            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"></path> </svg>
+          <br />
+          <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100" height="4" style={{ marginLeft: "4rem" }}
+            fill="currentColor" class="bi bi-dash-lg" viewBox="2 7.5 12 1">
+            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"></path> </svg>
         </div>
-       
+        <h4 className='title-title vivify popInBottom duration-2000'>web developer</h4>
+        <h6 className='fontDidact'>conjuring websites from nothing 👻</h6>
+
+      </div>
+
+
+
+      <div className='d-flex justify-content-lg-end title'>
+        <div className='vivify popInTop duration-1000'>
+          <img src={dude} id="imageofguy" alt="illustration of guy walking" height="550"></img>
+
+        </div>
+
+      </div>
+
     </div>
 
   )

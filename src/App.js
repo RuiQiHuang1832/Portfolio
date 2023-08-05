@@ -7,10 +7,10 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 
 function App() {
-  document.body.style.backgroundColor = "rgb(31,32,40)";
+  document.body.style.background = "linear-gradient(to bottom, rgb(31,32,40), rgb(0,0,0))";
 
   return (
-    <div className="App" >
+    <div className="App " >
       <Navbar />
       <Home />
 

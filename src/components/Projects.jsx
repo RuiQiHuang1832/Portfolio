@@ -6,7 +6,7 @@ export default function Projects() {
     <div className='text-white border-bottom'>
       <div className='title'>
         <div id='projectspage' className='title-name-md'>projects</div>
-        <div className='text-warning'>
+        <div className='doubleLineColors'>
           <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100" height="4"
             fill="currentColor" class="bi bi-dash-lg" viewBox="2 7.5 12 1">
             <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"></path> </svg>
@@ -22,33 +22,29 @@ export default function Projects() {
             <div class="col">
               <div class="card border-0">
                 <div id="bgDark" class="card-body">
-                  <h5 class="card-title text-info"><span className='text-decoration-underline'><a href='https://github.com/RuiQiHuang1832/RuiWebApp'>Message Board</a> </span> <span className='d-flex justify-content-end'>01/2022 - PRESENT</span></h5>
+                  <h5 class="card-title text-secondary"><span className='text-decoration-underline'><a className='text-warning' href='https://github.com/RuiQiHuang1832/RuiWebApp'>Interactive Web Forum</a> </span> <span className='d-flex justify-content-end'>01/2022 - 08/2023</span></h5>
                   <p class="card-text"><ul>
                     <li>
-                      Independently designing a Message Board
+                      Independently designed an Interactive Web Forum
                       web app that allows users to sign up, log in,
-                      create posts, and edit various settings
+                      create posts, edit posts, and edit various settings
                     </li>
                     <br />
                     <li>
-                      Implementing the frontend using: Reactjs, Bootstrap5, in Javascript CSS and HTML5.
-                    </li>
-                    <br />
-                    <li>
-                      Implementing the backend using: SpringJPA, SpringBoot, SpringSecurity, in Java and MYSQL for Database
-                    </li>
+                      Ensured backend conforms to REST API
+                      design principles</li>
                     <br />
                     <li>
                       Provided async HTTP methods that utilize endpoints in order to perform CRUD operations
                     </li>
                     <br />
                     <li>
-                      Utilized HDD local storage to increase performance, cache results to prevent bottlenecking and preserve resources by 30%
+                      <span className='text-info'>Frontend Stack</span>: Reactjs, Bootstrap5, in Javascript CSS and HTML5.
                     </li>
                     <br />
                     <li>
-                      Ensured backend conforms to REST API
-                      design principles                    </li>
+                      <span className='text-info'>Backend Stack</span>: SpringJPA, SpringBoot, SpringSecurity, in Java and MYSQL for Database
+                    </li>
                   </ul></p>
                 </div>
               </div>
@@ -56,7 +52,7 @@ export default function Projects() {
             <div class="col">
               <div class="card border-0">
                 <div id="bgDark" class="card-body">
-                  <h5 class="card-title text-info "><span className='text-decoration-underline'><a href='https://github.com/RuiQiHuang1832/databases-system-fall21/tree/main/milestones/Milestone3'>Discord Bot</a></span> <span className='d-flex justify-content-end'>12/2021 - 08/2021</span></h5>
+                  <h5 class="card-title text-secondary"><span className='text-decoration-underline'><a className='text-warning' href='https://github.com/RuiQiHuang1832/databases-system-fall21/tree/main/milestones/Milestone3'>Discord Bot</a></span> <span className='d-flex justify-content-end'>12/2021 - 08/2021</span></h5>
                   <p class="card-text"><ul>
                     <li>
                       Created a discord bot in Python that tests against a database model
@@ -67,7 +63,7 @@ export default function Projects() {
                     </li>
                     <br />
                     <li>
-                      Implemented using: MySql, Python, DiscordAPI
+                      <span className='text-info'>Technologies & Stack</span>: MySql, Python, DiscordAPI
                     </li>
                   </ul></p>
                 </div>
@@ -76,7 +72,7 @@ export default function Projects() {
             <div class="col">
               <div class="card border-0">
                 <div id="bgDark" class="card-body">
-                  <h5 class="card-title text-info"> <span className='text-decoration-underline'><a href='https://github.com/RuiQiHuang1832/csc648-03-fa21-team07/tree/master'>Tutoring Web App</a></span> <span className='d-flex justify-content-end'>12/2021 - 08/2021</span></h5>
+                  <h5 class="card-title text-secondary"> <span className='text-decoration-underline'><a className='text-warning' href='https://github.com/RuiQiHuang1832/csc648-03-fa21-team07/tree/master'>Tutoring Web App</a></span> <span className='d-flex justify-content-end'>12/2021 - 08/2021</span></h5>
                   <p class="card-text"><ul>
                     <li>
                       Designed a web app for my senior team project
@@ -97,7 +93,7 @@ export default function Projects() {
                     </li>
                     <br />
                     <li>
-                      Implemented using: AWS EC2, MySQL, Nodejs, Javascript, ExpressJS, ReactJS, Google analytics
+                      <span className='text-info'>Technologies & Stack</span>: AWS EC2, MySQL, Nodejs, Javascript, ExpressJS, ReactJS, Google analytics
                     </li>
                     <br />
                   </ul></p>
@@ -109,16 +105,12 @@ export default function Projects() {
               <div class="card border-0">
 
                 <div id="bgDark" class="card-body">
-                  <h5 class="card-title text-info "><span className='text-decoration-underline'><a href='https://github.com/RuiQiHuang1832/Forager'>2D Libgdx Game for Desktop</a></span> <span className='d-flex justify-content-end'>07/2021 - 08/2020</span></h5>
+                  <h5 class="card-title text-secondary "><span className='text-decoration-underline'><a className='text-warning' href='https://github.com/RuiQiHuang1832/Forager'>2D Libgdx Game for Desktop</a></span> <span className='d-flex justify-content-end'>07/2021 - 08/2020</span></h5>
                   <p class="card-text"><ul>
                     <li>
                       Designed a cross-platform Java game in a
                       development framework known as Libgdx
                       which works on multiple devices
-                    </li>
-                    <br />
-                    <li>
-                      Implemented using: Java, Libgdx Library, Tiled, paint.net, box2d and Freetype
                     </li>
                     <br />
                     <li>
@@ -129,6 +121,10 @@ export default function Projects() {
                     <li>
                       Integrated collision detection using box2D allowing for increased player speed
                     </li>
+                    <br />
+                    <li>
+                      <span className='text-info'>Technologies & Stack</span>: Java, Libgdx Library, Tiled, paint.net, box2d and Freetype
+                    </li>
                   </ul></p>
                 </div>
               </div>
@@ -136,14 +132,14 @@ export default function Projects() {
             <div class="col">
               <div class="card border-0">
                 <div id="bgDark" class="card-body">
-                  <h5 class="card-title text-info"><span className='text-decoration-underline'><a href='https://github.com/RuiQiHuang1832/Rosie'>Narration game in JFrame</a></span> <span className='d-flex justify-content-end'>04/2021 - 12/2020</span></h5>
+                  <h5 class="card-title text-secondary"><span className='text-decoration-underline'><a className='text-warning' href='https://github.com/RuiQiHuang1832/Rosie'>Narration game in JFrame</a></span> <span className='d-flex justify-content-end'>04/2021 - 12/2020</span></h5>
                   <p class="card-text"> <ul>
                     <li>
                       Designed a game using Jframe that allows users to pick choices and display certain results at the end.
                     </li>
                     <br />
                     <li>
-                      Implemented type writer effect, music and text narration. Done in Java and Jframe
+                      <span className='text-info'>Technologies & Stack</span>: Java and Jframe
                     </li>
                     <br />
                   </ul></p>
